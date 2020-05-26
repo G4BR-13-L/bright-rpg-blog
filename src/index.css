@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+@font-face{
+  font-family:'Lemon';
+  src:url('components/fonts/LemonMilk.otf');
+  
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color:var(--fundo);
+  --fundo:#140C40;
+  --redBright:#ff0228;
+  --blueBright:#3BD1D8;
+
+}
+
+
+.logo {
+  font-family: 'Lemon';
+  font-size:30px;
+}
+
+.bright-btn {
+  background-color:var(--redBright) 
+}
+
+.bright-btn:hover {
+  background-color:var(--blueBright) 
+}
+.bright{
+  background-color:var(--redBright);
+}
+.grey-text{
+  font-size:28px;
+}
+.card{
+  border-radius: 10px;
+}
+.container-1{
+  padding: 30px;
+  background-color: white;
+  width:60%;
+  border-radius: 10px;
+  box-align:center;
+  margin:50px auto;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color:var(--redBright);
+  box-shadow: none;
+}
+@media(max-width:700px){
+  .container-1{
+    width:90%
+  }
+  .logo{
+    box-align:center;
+    margin:0 auto;
+  }
+}
+
+
+
+
+
+
+/**
+
+
+.navbar {
+  width:100%;
+  height:65px;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  display:flex;
+  color:white;
+  background-color: rgb(7, 4, 48);
+  font-size:3vh;
+  
+  text-decoration: none;
+  color:inherit;
+}
+.navbar-nav{
+  width:400px;
+  margin-right:40px;
+}
+.navbar-nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-size:18px;
+  justify-content: space-between;
+  text-decoration: none;
+  color:inherit;
+}
+a{
+  text-decoration: none;
+
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+/**==================================**/
